@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.nav--bar {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 91px;
+  font-family: 'Inter', sans-serif;
+  gap: 2em;
+}
+
+.nav--icon {
+  height: 45px;
+  padding-right: 8px;
+  padding-left: 15px;
+}
+
+.nav--item{
+  color: white;
+  font-weight: bold;
+}
+
+.main-container {
+  height: 100vh;
+}
+
+.video-container {
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  background-color: black;
+}
+
+.background-video{
+  max-width: none;
+  width: 100vw;
+  opacity: .5;
+}
