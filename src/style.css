@@ -22,18 +22,17 @@ body {
   font-weight: bold;
 }
 
-.main-container {
+.main--container {
   height: 100vh;
 }
 
-.video-container {
-  position: absolute;
+.video--container {
   overflow: hidden;
   z-index: 0;
   background-color: black;
 }
 
-.background-video{
+.background--video{
   max-width: none;
   width: 100vw;
   opacity: .5;
