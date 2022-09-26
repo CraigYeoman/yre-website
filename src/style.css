@@ -2,6 +2,8 @@ body {
   margin: 0;
 }
 
+/* Navbar */
+
 .nav--bar {
   display: flex;
   align-items: center;
@@ -22,6 +24,8 @@ body {
   font-weight: bold;
 }
 
+/* Main Container */
+
 .main--container {
   height: 100vh;
 }
@@ -37,3 +41,34 @@ body {
   width: 100vw;
   opacity: .5;
 }
+
+.champion--container {
+  display: flex;
+  align-items: center;
+}
+
+.champion--container button {
+  background:transparent;
+  border:transparent;
+  font-size:1.5rem;
+  cursor:pointer;
+  transition: 0.3s ease-in-out all;
+}
+
+.left--button:hover {
+  color: grey;
+  transform:translateX(-1px);
+}
+
+.right--button:hover {
+  color: grey;
+  transform:translateX(+1px);
+}
+
+
+
+.champion--list {
+  margin-left: 20px;
+}
+
+

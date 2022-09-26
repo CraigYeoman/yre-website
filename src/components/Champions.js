@@ -1,8 +1,10 @@
 import { useState } from "react";
+import {BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill} from "react-icons/bs"
+import uniqid from "uniqid";
 
 const Champions = () => {
-    
-    const [year, selectedYear] = useState([
+    const [array, updateArray] = useState(0)
+    const year = [
         {
             id: 0,
             year: 2022,
@@ -46,41 +48,39 @@ const Champions = () => {
             ] 
         }
     
-    ])
+    ]
     
-    const array = 0
     const date = year.find((date) => date.id === array)
+    const leftClick = () => {
+        if (array === 0) {
+            return updateArray(array + 2)
+        } else {
+            return updateArray(array - 1)
+        }
+        
+    }
+    const rightClick = () => {
+        if (array === 2) {
+            return updateArray(array - 2)
+        } else {
+            return updateArray(array + 1)
+        }
+        
+    }
     
     return (
         <div>
-         <div className="champion--container">
-            <div>L</div>
-            <h3>{date.year} Champions</h3>
-            {date.winners.map((winner) => (
-                       <li>{winner}</li>
-                   )
-                   )}
-            <div>L</div>
-        </div>   
-        {/*<div className="champion--container">
-            {year.filter((date) => date.id === id).map((winner) => {
-                const {id, year , winners} = winner
-                return <li>{winners}</li>
-})}
-        </div>
-           <div className="champion--container">
-           {year.map((date) => {
-               const {id, year, winners} = date
-               return <div key={id}>
-                   <h3>{year} Champions</h3>
-                   {winners.map((winner) => (
-                       <li>{winner}</li>
-                   )
-                   )}
-               </div>
-           }     
-           )}
-       </div>*/}
+            <div className="champion--container">
+                <button className="left--button" onClick={leftClick}><BsFillArrowLeftCircleFill /></button>
+                    <div className="champion--list">
+                        <h3>{date.year} Champions</h3>
+                        {date.winners.map((winner) => (
+                                <li key={uniqid()}>{winner}</li>
+                            )
+                            )}
+                    </div>
+                <button className="right--button" onClick={rightClick}><BsFillArrowRightCircleFill /></button>
+            </div>   
        </div>
     )
 }
