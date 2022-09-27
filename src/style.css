@@ -42,6 +42,13 @@ body {
   opacity: .5;
 }
 
+.content--row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+
+}
+
 .champion--container {
   display: flex;
   align-items: center;
@@ -64,8 +71,6 @@ body {
   color: grey;
   transform:translateX(+1px);
 }
-
-
 
 .champion--list {
   margin-left: 20px;
