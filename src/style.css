@@ -74,14 +74,19 @@ body {
   }
   
   .navigation--menu ul {
+    display: none;
+  }
+
+  .navigation--menu.expanded ul {
     position: absolute;
-    top: 60px;
+    top: 75px;
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: 100px;
+    height: 230px;
     background-color: white;
     border-top: 1px solid black;
+    display: block;
   }
   .navigation--menu li {
     text-align: center;
@@ -109,7 +114,6 @@ body {
 .background--video{
   max-width: none;
   width: 100vw;
-  opacity: .5;
 }
 
 .content--row {

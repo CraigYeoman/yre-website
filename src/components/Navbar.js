@@ -13,8 +13,12 @@ const Navbar = () => {
             <div className="nav--item">Home</div>
             <div className="nav--item">Engines</div>
             <div className="nav--item">Tech</div>
-            <buttton className="nav--button"><TiThMenu /></buttton>
-            <div className="navigation--menu">
+            <buttton className="nav--button"
+              onClick={() => {
+                setNavExpanded(!isNavExpanded);
+              }}
+            ><TiThMenu /></buttton>
+            <div className={ isNavExpanded ? "navigation--menu expanded" : "navigation--menu"}>
                 <ul>
                 <li>
                     <a href="/home">Home</a>
