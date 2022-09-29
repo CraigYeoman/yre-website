@@ -24,6 +24,7 @@ body {
 .nav--item{
   color: white;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .nav--button {
@@ -34,10 +35,19 @@ body {
   right: 25px;
   transform: translateY(-50%);
   display: block;
+  font-size: 35px;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  display: flex;
+  border-radius: 20px;
 }
 
-.navigation--menu{
- 
+.nav--button:hover {
+  color: #21222A;
+  background-color: white;
+  transition: 0.3s ease-in-out all;
+  
 }
 
 .navigation--menu ul {
@@ -102,7 +112,7 @@ body {
 /* Main Container */
 
 .main--container {
-  height: 100vh;
+  height: auto;
 }
 
 .video--container {
@@ -162,6 +172,7 @@ body {
 .fb {
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .fb--container {

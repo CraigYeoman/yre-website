@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom'
 import "../style.css"
 import logo from "../images/yeomanRaceEnginesLogo.svg"
 import { TiThMenu } from 'react-icons/ti'
@@ -10,24 +11,24 @@ const Navbar = () => {
     return (
         <nav className="nav--bar">
             <img src={logo} className="nav--icon" alt="logo"/>
-            <div className="nav--item">Home</div>
-            <div className="nav--item">Engines</div>
-            <div className="nav--item">Tech</div>
-            <buttton className="nav--button"
+            <Link to="/" className="nav--item">Home</Link>
+            <Link to="/Engines" className="nav--item">Engines</Link>
+            <Link to="/Tech" className="nav--item">Tech</Link>
+            <button className="nav--button"
               onClick={() => {
                 setNavExpanded(!isNavExpanded);
               }}
-            ><TiThMenu /></buttton>
+            ><TiThMenu /></button>
             <div className={ isNavExpanded ? "navigation--menu expanded" : "navigation--menu"}>
                 <ul>
                 <li>
-                    <a href="/home">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="/about">Engines</a>
+                    <Link to="/Engines">Engines</Link>
                 </li>
                 <li>
-                    <a href="/contact">Tech</a>
+                    <Link to="/Tech">Tech</Link>
                 </li>
                 </ul>
             </div>
