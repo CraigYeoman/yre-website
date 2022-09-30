@@ -3,9 +3,9 @@ import React from "react"
 const Footer = () => {
 
     return (
-        <div className="footer">
-            Hi
-        </div>
+        <footer className="footer">
+            <p>© 2023 Yeoman Race Engines, Inc.</p>
+        </footer>
     )
 }
 
