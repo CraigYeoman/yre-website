@@ -1,5 +1,10 @@
 body {
   margin: 0;
+  background-color: #18181b;
+}
+
+html {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Navbar */
@@ -7,7 +12,7 @@ body {
 .nav--bar {
   display: flex;
   align-items: center;
-  background-color: #21222A;
+  background-color: #057eff;
   height: 91px;
   font-family: 'Inter', sans-serif;
   gap: 2em;
@@ -113,17 +118,19 @@ body {
 
 .main--container {
   height: auto;
+  color: white;
 }
 
 .video--container {
   overflow: hidden;
   z-index: 0;
-  background-color: black;
+  
 }
 
 .background--video{
   max-width: none;
   width: 100vw;
+  background-color: black;
 }
 
 .content--row {
@@ -156,12 +163,12 @@ body {
 }
 
 .left--button:hover {
-  color: grey;
+  color: white;
   transform:translateX(-1px);
 }
 
 .right--button:hover {
-  color: grey;
+  color: white;
   transform:translateX(+1px);
 }
 
@@ -179,4 +186,52 @@ body {
   width: 340px;
 }
 
+/* Engines Nav Page */
 
+.engine--seletion-container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.engine--seletion-container ul {
+  display: grid;
+  gap: 10px;
+}
+
+.engine--seletion-container a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Engine Pages */
+
+.engine--container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: white;
+}
+
+.engine-h1 {
+  color: white;
+}
+
+/* Footer */
+
+.footer {
+  background-color:#057eff;
+  color: white;
+  height: 40px;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  width: 100%;
+}
+
+.footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
