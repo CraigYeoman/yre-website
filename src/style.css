@@ -189,15 +189,24 @@ html {
 /* Engines Nav Page */
 
 .engine--main-container {
-  display: block;
-  align-items: flex-start;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 15px;
+  flex-direction: column;
 }
 
 .engine--seletion-container {
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.engine--seletion-container.two {
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .engine--seletion-container ul {
@@ -211,6 +220,33 @@ html {
   font-size: 20px;
   font-weight: bold;
 }
+
+.logos--container {
+  width: 182px;
+}
+
+.logo {
+  width: 182px;
+}
+
+.logo--two{
+  border-radius: 50%;
+  height: 150px;
+}
+
+
+@media screen and (max-width:450px){
+  .logo, .logo--two, .logos--container {
+    width: 120px;
+  }
+  
+  .logo--two{
+    height: 120px;
+  }
+
+}
+
+
 
 /* Engine Pages */
 

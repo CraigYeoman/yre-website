@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom'
 import usra from '../images/usra-logo.png'
 import imca from '../images/imca-logo.png'
+import dragRace from '../images/drag-race.png'
+import street from '../images/street.jpg'
 
 const Engines = () => {
     return (
         <div className='engine--main-container'>
             <div className='engine--seletion-container'>
-                <div>
-                    <img src={usra} alt="USRA" />
+                <div className='logos--container'>
+                    <img src={usra} alt="USRA" className='logo' />
                 </div>
                 <ul>
                     <Link to="/UsraBmod">USRA B-Mod</Link>
@@ -16,8 +18,8 @@ const Engines = () => {
                 </ul>
             </div>
             <div className='engine--seletion-container'>
-            <div>
-                    <img src={imca} alt="IMCA" />
+                <div className='logos--container'>
+                    <img src={imca} alt="IMCA" className='logo' />
                 </div>
                 <ul>
                     <Link to="/ImcaSportMod">IMCA Northern/Southern Sportmod</Link>
@@ -25,11 +27,21 @@ const Engines = () => {
                     <Link to="/ImcaModified">IMCA Modifieds</Link>
                 </ul>
             </div>
-            <div className='engine--seletion-container'>
-                <Link to="/DragRace">Drag Race</Link>
+            <div className='engine--seletion-container two'>
+                <div className='logos--container'>
+                    <img src={dragRace} alt="Drag Race" className='logo--two' /> 
+                </div>
+                <ul>
+                    <Link to="/DragRace">Drag Race</Link>
+                </ul>
             </div>
-            <div className='engine--seletion-container'>
-                <Link to="/Street">Street</Link>
+            <div className='engine--seletion-container two'>
+                <div className='logos--container'>
+                    <img src={street} alt="street" className='logo--two' /> 
+                </div>
+                <ul>
+                    <Link to="/Street">Street</Link>
+                </ul>
             </div>
           </div>
     )

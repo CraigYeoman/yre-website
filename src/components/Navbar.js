@@ -10,7 +10,10 @@ const Navbar = () => {
 
     return (
         <nav className="nav--bar">
+            <Link to="/" className="nav--icon">
             <img src={logo} className="nav--icon" alt="logo"/>
+            </Link>
+            
             <Link to="/" className="nav--item">Home</Link>
             <Link to="/Engines" className="nav--item">Engines</Link>
             <Link to="/Tech" className="nav--item">Tech</Link>
