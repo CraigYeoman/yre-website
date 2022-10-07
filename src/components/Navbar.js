@@ -16,7 +16,7 @@ const Navbar = () => {
             
             <Link to="/" className="nav--item">Home</Link>
             <Link to="/Engines" className="nav--item">Engines</Link>
-            <Link to="/Tech" className="nav--item">Tech</Link>
+            <Link to="/Contact" className="nav--item">Contact</Link>
             <button className="nav--button"
               onClick={() => {
                 setNavExpanded(!isNavExpanded);
@@ -31,7 +31,7 @@ const Navbar = () => {
                     <Link to="/Engines">Engines</Link>
                 </li>
                 <li>
-                    <Link to="/Tech">Tech</Link>
+                    <Link to="/Contact">Contact</Link>
                 </li>
                 </ul>
             </div>

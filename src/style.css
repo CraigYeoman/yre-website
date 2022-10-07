@@ -273,6 +273,26 @@ html {
   color: white;
 }
 
+/*Contact */
+
+.contact--container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: white;
+  margin: 20px 20px;
+}
+
+@media screen and (max-width:850px){
+  .contact--container {
+    flex-direction: column;
+  }
+}
+
+.contact--directions {
+  background-color: white;
+}
+
 /* Footer */
 
 .footer {

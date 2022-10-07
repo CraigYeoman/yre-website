@@ -12,6 +12,7 @@ import ImcaStockCar from './components/Engines/IMCA/IMCA-StockCar';
 import ImcaModified from './components/Engines/IMCA/IMCA-Modifieds';
 import DragRace from './components/Engines/DragRace'
 import Street from './components/Engines/Street'
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/ImcaModified" element={<ImcaModified />}></Route> 
         <Route path="/DragRace" element={<DragRace />}></Route>
         <Route path="/Street" element={<Street />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
         </Routes> 
       <Footer />
     </Router>
