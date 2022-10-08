@@ -10,11 +10,11 @@ const Navbar = () => {
 
     return (
         <nav className="nav--bar">
-            <Link to="/" className="nav--icon">
+            <Link to="/yre-website" className="nav--icon">
             <img src={logo} className="nav--icon" alt="logo"/>
             </Link>
             
-            <Link to="/" className="nav--item">Home</Link>
+            <Link to="/yre-website" className="nav--item">Home</Link>
             <Link to="/Engines" className="nav--item">Engines</Link>
             <Link to="/Contact" className="nav--item">Contact</Link>
             <button className="nav--button"
@@ -25,7 +25,7 @@ const Navbar = () => {
             <div className={ isNavExpanded ? "navigation--menu expanded" : "navigation--menu"}>
                 <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/yre-website">Home</Link>
                 </li>
                 <li>
                     <Link to="/Engines">Engines</Link>

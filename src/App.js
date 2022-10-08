@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Navbar />
         <Routes>
-        <Route path="/" element={<Main />}></Route>
+        <Route path="/yre-website" element={<Main />}></Route>
         <Route path="/Engines" element={<Engines />}></Route>
         <Route path="/UsraBmod" element={<UsraBmod />}></Route>
         <Route path="/UsraStockCar" element={<UsraStockCar />}></Route>
