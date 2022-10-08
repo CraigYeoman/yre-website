@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/yre-website/static/css/main.8a012d3a.css",
+    "main.js": "/yre-website/static/js/main.93b78bae.js",
+    "static/media/video.mp4": "/yre-website/static/media/video.5f8d27195733a7bc9889.mp4",
+    "static/media/drag-race.png": "/yre-website/static/media/drag-race.5f854642610aeb21095f.png",
+    "static/media/street.jpg": "/yre-website/static/media/street.abf3a6f520abc30914a1.jpg",
+    "static/media/usra-logo.png": "/yre-website/static/media/usra-logo.f89e8114af7dc14a0303.png",
+    "static/media/location.png": "/yre-website/static/media/location.aa0ce73a677714c3c544.png",
+    "static/media/imca-logo.png": "/yre-website/static/media/imca-logo.cbbfebdda0e6c4023b49.png",
+    "static/media/yeomanRaceEnginesLogo.svg": "/yre-website/static/media/yeomanRaceEnginesLogo.dbbbf1b448f972dab85860b049a43a42.svg",
+    "index.html": "/yre-website/index.html",
+    "main.8a012d3a.css.map": "/yre-website/static/css/main.8a012d3a.css.map",
+    "main.93b78bae.js.map": "/yre-website/static/js/main.93b78bae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a012d3a.css",
+    "static/js/main.93b78bae.js"
+  ]
+}
