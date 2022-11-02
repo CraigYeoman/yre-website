@@ -38,6 +38,11 @@ html {
   color: white;
   font-weight: bold;
   text-decoration: none;
+  transition: .2s;
+}
+
+.nav--item:hover{
+  text-decoration: underline;
 }
 
 .nav--button {
@@ -229,8 +234,17 @@ html {
   font-weight: bold;
 }
 
+.engine--seletion-container a:hover {
+  text-decoration: underline;
+}
+
 .logos--container {
   width: 182px;
+  transition: .2s;
+}
+
+.logos--container:hover {
+  transform: scale(1.1);
 }
 
 .logo {
