@@ -1,12 +1,13 @@
 const Street = () => {
-    return (
-        <div className="engine--container">
-            <h1 className="engine-h1">Street</h1>
-                <h3>The majority of drag racing classes offer a wide variety of engine combinations. With that being said, prices vary greatly depending on your application. Whether you're looking for all motor, nitrous, blower, or turbos, we can customize a motor to suit your needs.</h3>
-        </div>
+  return (
+    <div className="engine--container">
+      <h1 className="engine-h1">Street</h1>
+      <h3>
+        We can build your street motor from a stock small block to a blower big
+        block. Pricing varies depending on your goals.
+      </h3>
+    </div>
+  );
+};
 
-
-    )
-}
-
-export default Street
+export default Street;
