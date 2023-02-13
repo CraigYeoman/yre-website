@@ -9,11 +9,11 @@ const Navbar = () => {
 
   return (
     <nav className="nav--bar">
-      <Link to="/yre-website/" className="nav--icon">
+      <Link to="/" className="nav--icon">
         <img src={logo} className="nav--icon" alt="logo" />
       </Link>
 
-      <Link to="/yre-website/" className="nav--item">
+      <Link to="/" className="nav--item">
         Home
       </Link>
       <Link to="/Engines" className="nav--item">
@@ -38,7 +38,7 @@ const Navbar = () => {
       >
         <ul>
           <li>
-            <Link to="/yre-website/">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/Engines">Engines</Link>

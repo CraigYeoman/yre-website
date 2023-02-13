@@ -16,9 +16,11 @@ const Champions = () => {
         "John Potter - 2022 Salina highbanks B-Mod Track Champion",
         "Gabe Hodges - 2022 81 Speedway B-Mod Track Champion",
         "Jackie Dalton - 2022 Springfield Raceway B-Mod Track Champion",
+        "Jackie Dalton - 2022 Monett Motor Speedway B-Mod Track Champion",
         "Colby Artherton - 2022 Caney Valley Speedway B-Mod Track Champion",
         "Brian Bolin - 2022 Nevada Speedway B-Mod Track Champion",
         "Brian McGowen - 2022 Humboldt Speedway B-Mod Track Champion",
+
         "Denver Lee - 2022 Tri-State Speedway USRA Stock Car Track Champion",
         "Nic Hanes - 2022 I-35 Speedway USRA Stock Car Track Champion",
         "Tim Eaton - 2022 US 36 Speedway IMCA Northern SportMod Track Champion",

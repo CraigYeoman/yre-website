@@ -105,6 +105,10 @@ html {
     display: none;
   }
 
+  .navigation--menu.expanded {
+    height: 230px;
+  }
+
   .navigation--menu.expanded ul {
     position: absolute;
     top: 75px;
@@ -115,6 +119,7 @@ html {
     background-color: white;
     border-top: 1px solid black;
     display: block;
+    z-index: 1;
   }
   .navigation--menu li {
     text-align: center;
