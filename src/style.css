@@ -17,6 +17,11 @@ html {
 
 /* Navbar */
 
+.nav--container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav--bar {
   display: flex;
   align-items: center;
@@ -39,6 +44,13 @@ html {
   font-weight: bold;
   text-decoration: none;
   transition: .2s;
+}
+
+.nav--bar.title {
+  justify-content: end;
+  padding-right: 20px;
+  font-style: italic;
+  font-size: 2rem;
 }
 
 .nav--item:hover{
@@ -97,7 +109,7 @@ html {
 
 @media screen and (max-width:450px) {
   
-  .nav--item{
+  .nav--item, .nav--bar.title{
     display: none;
   }
   
@@ -124,11 +136,13 @@ html {
   .navigation--menu li {
     text-align: center;
     margin: 0;
+    z-index: 2;
   }
   .navigation--menu li a {
     color: black;
     width: 100%;
     padding: 1.5rem 0;
+    z-index: 3;
   }
 }
 
