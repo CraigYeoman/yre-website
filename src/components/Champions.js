@@ -12,7 +12,7 @@ const Champions = () => {
       id: 0,
       year: 2022,
       winners: [
-        "250+ Wins in 2022   ",
+        "200+ Wins in 2022   ",
         "John Potter - 2022 Salina highbanks B-Mod Track Champion",
         "Gabe Hodges - 2022 81 Speedway B-Mod Track Champion",
         "Jackie Dalton - 2022 Springfield Raceway B-Mod Track Champion",
@@ -26,6 +26,8 @@ const Champions = () => {
         "Tim Eaton - 2022 US 36 Speedway IMCA Northern SportMod Track Champion",
         "Jerad McIntire - 2022 Springfield Raceway Midwest Mod A-Class Track Champion",
         "Caden Bolin - 2022 Nevada Speedway Midwest Mod Track Champion",
+        "Jason Foster - 2022 KMS Speedway USRA A-Mod Track Champion",
+        "Chad Williams - 2022 Old #1 Speedway IMCA A-Mod Track Champion",
       ],
     },
     {

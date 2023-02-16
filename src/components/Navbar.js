@@ -35,7 +35,7 @@ const Navbar = () => {
         </button>
       </div>
       <div className="nav--bar title">
-        <div className="nav--item">250+ Wins in 2022</div>
+        <div className="nav--item">200+ Wins in 2022</div>
       </div>
 
       <div
@@ -43,17 +43,17 @@ const Navbar = () => {
           isNavExpanded ? "navigation--menu expanded" : "navigation--menu"
         }
       >
-        <ul>
-          <li>
+        <div className="nav--dropdown">
+          <div className="nav--link">
             <Link to="/">Home</Link>
-          </li>
-          <li>
+          </div>
+          <div className="nav--link">
             <Link to="/Engines">Engines</Link>
-          </li>
-          <li>
+          </div>
+          <div className="nav--link">
             <Link to="/Contact">Contact</Link>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </nav>
   );
