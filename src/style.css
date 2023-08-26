@@ -74,7 +74,7 @@ html {
   border-radius: 20px;
 }
 
-.nav--button:hover {
+.nav--button:hover ul {
   color: #21222A;
   background-color: white;
   transition: 0.3s ease-in-out all;
@@ -118,6 +118,13 @@ html {
     display: none;
   }
 
+  .nav--dropdown .nav--link {
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+  }
+
   .navigation--menu.expanded {
     height: 230px;
   }
@@ -132,8 +139,10 @@ html {
     background-color: white;
     border-top: 1px solid black;
     display: block;
-    z-index: 1;
+    
   }
+
+
   .navigation--menu .nav--link {
     text-align: center;
     margin: 0;

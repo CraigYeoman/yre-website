@@ -7,6 +7,10 @@ import { TiThMenu } from "react-icons/ti";
 const Navbar = () => {
   const [isNavExpanded, setNavExpanded] = useState(false);
 
+  const toggleMenu = () => {
+    setNavExpanded(!isNavExpanded);
+  };
+
   return (
     <nav className="nav--container">
       <div className="nav--bar">
@@ -26,10 +30,11 @@ const Navbar = () => {
 
         <button
           className="nav--button"
-          onMouseOver={() => setNavExpanded(true)}
-          onMouseLeave={() => setNavExpanded(false)}
-          onMouseEnter={() => setNavExpanded(true)}
-          onClick={() => setNavExpanded(!isNavExpanded)}
+          // onMouseOver={() => setNavExpanded(true)}
+          // onMouseLeave={() => setNavExpanded(false)}
+          // onMouseEnter={() => setNavExpanded(true)}
+          // onClick={() => setNavExpanded(!isNavExpanded)}
+          onClick={toggleMenu}
         >
           <TiThMenu />
         </button>

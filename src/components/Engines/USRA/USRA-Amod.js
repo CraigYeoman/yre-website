@@ -5,7 +5,7 @@ const UsraAmod = () => {
       <ul>
         <li>Callies Crank 4340</li>
         <li>Ultra XD or Oliver Billet Rods</li>
-        <li>JE or MahleForged Pistons</li>
+        <li>JE or Mahle Forged Pistons</li>
         <li>DART SHP Block</li>
         <li>Edelbrock 2925 Intake</li>
         <li>T&D Shaft Rockers</li>
@@ -24,15 +24,15 @@ const UsraAmod = () => {
         <li>Dyno $600</li>
         <li>Titanium Intake Valves $1,200</li>
         <li>Titanium Exhaust Valves $1,200</li>
-        <li>Ported Intake Manifold $800</li>
-        <li>Light Weight Crank $800</li>
-        <li>Carburetor $1,200</li>
-        <li>50mm Cam and lifter upgrade $2,000</li>
-        <li>Eldelbrock Water Pump $350</li>
-        <li>Jones Water Pump Pulley $350</li>
-        <li>Distributor $450</li>
-        <li>Wires $200</li>
+        <li>Engine Cradle $65</li>
         <li>Carb Spacer $200</li>
+        <li>Wires $200</li>
+        <li>Water Pump $375</li>
+        <li>Jones Water Pump Pulley $350</li>
+        <li>Ported Intake Manifold $600</li>
+        <li>Light Weight Crank $800</li>
+        <li>Dyer Rods $800</li>
+        <li>Carburetor $1,200</li>
       </ul>
     </div>
   );
