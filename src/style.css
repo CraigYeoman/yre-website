@@ -183,6 +183,11 @@ html {
   margin-top: 15px;
 }
 
+.info--container {
+  padding: 20px;
+  margin-left: 15px;
+}
+
 @media screen and (max-width:960px){
   .content--row{
     grid-template-columns:1fr;
@@ -193,7 +198,11 @@ html {
 .champion--container {
   display: flex;
   align-items: center;
+  padding: 20px;
+  min-height: 700px;
 }
+
+
 
 .champion--container button {
   background:transparent;
@@ -203,18 +212,27 @@ html {
   transition: 0.3s ease-in-out all;
 }
 
-.left--button:hover {
+.left--button, .right--button {
   color: white;
+}
+
+.left--button:hover {
+  color: #057eff;
   transform:translateX(-1px);
 }
 
 .right--button:hover {
-  color: white;
+  color: #057eff;
   transform:translateX(+1px);
 }
 
 .champion--list {
   margin-left: 20px;
+}
+
+.champion--list li {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .fb {
@@ -290,6 +308,9 @@ html {
   }
 }
 
+
+
+
 @media screen and (max-width:450px){
   .logo, .logo--two, .logos--container {
     width: 120px;
@@ -301,19 +322,42 @@ html {
 
 }
 
-
-
 /* Engine Pages */
 
 .engine--container {
   margin-left: 1rem;
-  margin-right: 1rem;
   color: white;
+
+}
+
+@media screen and (min-width:960px){
+  .engine--container {
+    margin-left: 5rem;
+  }
 }
 
 .engine-h1 {
   color: white;
 }
+
+.img-gallery {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+
+}
+
+.img-gallery img{
+    float: left;
+    width:  250px;
+    height: 250px;
+    object-fit: cover;
+    justify-self: center;
+    margin: auto;
+    object-position: center center;
+}
+
 
 /*Contact */
 
@@ -347,7 +391,12 @@ html {
     align-items: center;
   }
 
+  .img-gallery {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
   
+  }
 }
 
 .contact--directions {
