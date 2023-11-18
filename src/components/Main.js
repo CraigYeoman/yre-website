@@ -17,6 +17,10 @@ const Main = () => {
                         <div>
                             Yeoman Race Engines are custom built to fit your needs. From dirt track, drag strip or street, we can custom build an engine that will increase your horsepower and have reliabilty you can count on.
                         </div>
+                        <br/>
+                        <div>
+                            "If you are looking for the best reliable horsepower in the business Yeoman Race Engines is the answer.  If you want to compete on the next level contact Yeoman and the crew.  Customer service and absolute best tech service in the business.  I want to thank Yeoman Race Engines for all of my success this year and cannot wait until we fire off next year!" - John Potter
+                        </div>
                     </div>
                 </div>
                 <Champions />
