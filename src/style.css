@@ -17,6 +17,22 @@ html {
 
 /* Navbar */
 
+.header {
+  background-color: transparent;
+}
+
+.header-bg{
+  background-color: rgba(0,0,0,.9);
+}
+
+.nav-link {
+  font-family: 'Noto Sans',Helvetica,Arial,Lucida,sans-serif !important;
+  color: white !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
 .nav--container {
   display: flex;
   justify-content: space-between;
@@ -24,14 +40,8 @@ html {
 }
 
 .nav--bar {
-  display: flex;
-  align-items: center;
-  background-color: #057eff;
-  height: 80px;
   font-family: 'Noto Sans',Helvetica,Arial,Lucida,sans-serif;
-  gap: 2em;
-  position: relative;
-  width: 100%;
+  color: white !important;
 }
 
 .nav--icon {
@@ -201,7 +211,6 @@ html {
   border: 0 solid #333;
   font-size: 14px;
   margin-right: 15px;
-  border-color: 
 }
 
 @media screen and (max-width:960px){
