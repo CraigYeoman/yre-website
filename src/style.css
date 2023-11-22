@@ -9,10 +9,52 @@ body {
   background-color: #18181b;
 }
 
-
-
 html {
   font-family: 'Noto Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+/* General */
+
+
+/* Weights */
+.font-weight-thin {
+	font-weight: 100 !important;
+}
+
+.font-weight-extralight,
+.font-weight-extra-light {
+	font-weight: 200 !important;
+}
+
+.font-weight-light {
+	font-weight: 300 !important;
+}
+
+.font-weight-regular,
+.font-weight-normal {
+	font-weight: 400 !important;
+}
+
+.font-weight-medium {
+	font-weight: 500 !important;
+}
+
+.font-weight-semibold,
+.font-weight-semi-bold {
+	font-weight: 600 !important;
+}
+
+.font-weight-bold {
+	font-weight: 700 !important;
+}
+
+.font-weight-extrabold,
+.font-weight-extra-bold {
+	font-weight: 800 !important;
+}
+
+.font-weight-black {
+	font-weight: 900 !important;
 }
 
 /* Navbar */
@@ -178,13 +220,15 @@ html {
 .video--container {
   overflow: hidden;
   z-index: 0;
-  
+  background-color: #18181b;
+  height: 100vh;
+  width: 100vw;
 }
 
 .background--video{
-  max-width: none;
-  width: 100vw;
-  background-color: black;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: .5;
 }
 
 .content--row {
@@ -213,12 +257,26 @@ html {
   margin-right: 15px;
 }
 
+@media screen and (max-width: 500px){
+  .video--container {
+    height: auto;
+    display: flex;
+  }
+  
+  .background--video {
+    height: auto;
+    max-width: none;
+  }
+}
+
 @media screen and (max-width:960px){
   .content--row{
     grid-template-columns:1fr;
     justify-content: center;
   }
 }
+
+
 
 .champion--container {
   display: flex;
