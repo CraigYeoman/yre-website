@@ -6,7 +6,7 @@ html {
 body {
   margin: 0 0 40px;
   padding-bottom: 25px;
-  background-color: #18181b;
+  background-color: #18181b!important;
 }
 
 html {
@@ -15,6 +15,9 @@ html {
 
 /* General */
 
+.vh-50 {
+  height: 100vh;
+}
 
 /* Weights */
 .font-weight-thin {
@@ -193,8 +196,7 @@ html {
     height: 230px;
     background-color: white;
     border-top: 1px solid black;
-    display: block;
-    
+    display: block;   
   }
 
 
@@ -207,6 +209,27 @@ html {
     width: 100%;
     padding: 1.5rem 0;
   }
+
+  .fixed-top{
+    position: sticky!important;
+  }
+
+  .header {
+    background-color: rgba(0,0,0,.9);
+  }
+}
+
+@media screen and (max-width:500px) {
+  .vh-50{
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .vh-50{
+    height: 50vh;
+  }
+
 }
 
 /* Main Container */
@@ -215,6 +238,7 @@ html {
   height: auto;
   color: white;
   z-index: 0;
+  width: 100vw;
 }
 
 .video--container {
@@ -255,6 +279,33 @@ html {
   border: 0 solid #333;
   font-size: 14px;
   margin-right: 15px;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
 }
 
 @media screen and (max-width: 500px){
