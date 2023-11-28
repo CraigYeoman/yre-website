@@ -11,8 +11,8 @@ const Main = () => {
                 <video className="background--video" src={video} alt="video" autoPlay muted loop disablePictureInPicture playsInline controlsList="nofullscreen nodownload"/>
                 <div className="d-flex flex-column vh-50 vw-100 align-items-center justify-content-center position-absolute top-0" >
                 <div className="col-lg-6 text-center">                 
-                    <h1 className="display-5 fw-bold lh-1 mb-3 text-white">Your way to victory lane</h1>
-                    <p className="lead text-white">We give you the power and reliabilty to win races, track championships, and national points series</p>
+                    <h1 className="display-5 fw-bold lh-1 text-white p-1 mb-0">Your way to victory lane</h1>
+                    <p className="lead text-white p-2">We give you the power and reliabilty to win races, track championships, and national points series</p>
                 </div>
             </div>
             </div >
@@ -60,9 +60,9 @@ const Main = () => {
             
             <div className="b-example-divider"></div>
 
-    <div class="px-4 py-5 bg-body-tertiary" id="hanging-icons">
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="col d-flex align-items-start">
+    <div className="px-4 py-5 bg-body-tertiary" id="hanging-icons">
+    <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div className="col d-flex align-items-start">
         <div className="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
           {/* svg */}
         </div>
@@ -80,7 +80,7 @@ const Main = () => {
         </div>
         <div>
           <h3 className="fs-2 text-body-emphasis">End-to-End Support</h3>
-          <p className="text-body-emphasis">Beyond delivering top-notch engines, we prioritize our customers' satisfaction and success. When you choose [Company Name], you're not just a client; you become a valued partner. Our comprehensive support extends beyond the sale, offering ongoing maintenance advice, technical support, and a commitment to ensuring your engine continues to perform at its peak.</p>
+          <p className="text-body-emphasis">Beyond delivering top-notch engines, we prioritize our customers' satisfaction and success. When you choose Yeoman Race Engines, you're not just a client; you become a valued partner. Our comprehensive support extends beyond the sale, offering ongoing maintenance advice, technical support, and a commitment to ensuring your engine continues to perform at its peak.</p>
           <a href="#" className="btn btn-primary">
             Primary button
           </a>
@@ -92,7 +92,7 @@ const Main = () => {
         </div>
         <div>
           <h3 className="fs-2 text-body-emphasis">Trusted Expertise</h3>
-          <p className="text-body-emphasis">Deciding on the right race engine builder is crucial, and at [Company Name], you're in the hands of trusted experts. With decades of collective experience and a team passionate about the racing industry, we bring unparalleled expertise to every project. Our deep understanding of racing dynamics and relentless pursuit of perfection make us the go-to choice for serious racers and teams.</p>
+          <p className="text-body-emphasis">Deciding on the right race engine builder is crucial, and at Yeoman Race Engines, you're in the hands of trusted experts. With decades of collective experience and a team passionate about the racing industry, we bring unparalleled expertise to every project. Our deep understanding of racing dynamics and relentless pursuit of perfection make us the go-to choice for serious racers and teams.</p>
           <a href="#" className="btn btn-primary">
             Primary button
           </a>
@@ -104,7 +104,7 @@ const Main = () => {
   <div className="b-example-divider"></div>
 
   <div className="my-5">
-  <div className="p-5 text-center bg-body-tertiary">
+  <div className="p-5 text-center">
     <div className="container py-5">
       <h1 className="text-body-emphasis">Full-width jumbotron</h1>
       <p className="col-lg-8 mx-auto lead">
@@ -117,7 +117,7 @@ const Main = () => {
 
             <div className="b-example-divider"></div>
 
-            <div className="container col-xxl-8 px-4 py-5">
+            <div className="px-4 py-5 bg-body-tertiary">
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div className="col-lg-6">
                         <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>

@@ -3,7 +3,7 @@ import Location from "../images/location.png";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="container contact">
       <div className="contact--container">
         <div className="contact--info">
           <div>
