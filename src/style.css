@@ -238,6 +238,7 @@ html {
   color: white;
   z-index: 0;
   width: 100vw;
+  max-width: 100%;
 }
 
 .video--container {
@@ -246,12 +247,14 @@ html {
   background-color: #18181b;
   height: 100vh;
   width: 100vw;
+  max-width: 100%;
 }
 
 .background--video{
   min-width: 100%;
   min-height: 100%;
   opacity: .5;
+
 }
 
 .content--row {

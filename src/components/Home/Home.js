@@ -1,10 +1,6 @@
 import React from "react"
 
-import Champions from "./Champions"
-
-
-
-
+import Champions from "../Champions"
 import Hero from './Hero'
 import About from './About'
 import Marketing from './Marketing'
@@ -12,9 +8,10 @@ import Testimonial from './Testimonial'
 import Bio from './Bio'
 import Customers from './Customers'
 import Faq from './Faq'
+import Contact from './Contact'
 
 
-const Main = () => {
+const Home = () => {
 
     return (
         <div className="main--container">       
@@ -25,6 +22,7 @@ const Main = () => {
             <Bio />
             <Customers />
             <Faq />
+            <Contact />
 
     {/* <div className="content--row">
                 <div className="content--container">
@@ -50,4 +48,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Home

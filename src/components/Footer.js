@@ -20,7 +20,6 @@ const Footer = () => {
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
             <Nav.Link className="nav-link px-2" href="/">Home</Nav.Link>
-            <Nav.Link className="nav-link px-2" href="/Engines">Engines</Nav.Link>
             <Nav.Link className="nav-link px-2" href="/Contact">Contact</Nav.Link>
             <li className="ms-3"><a className="text-muted" href="#"><svg className="bi" width="24" height="24"></svg></a></li>
         </ul>

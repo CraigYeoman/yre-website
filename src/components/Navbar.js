@@ -25,16 +25,16 @@ const Header = () => {
     <Navbar expand="lg" fixed="top" className={color ? 'header header-bg': "header"}>
       <Container>
         <Navbar.Brand> 
-          <Link to="/" >
+          <Nav.Link href="#top" >
             <img src={logo} className="nav--icon" alt="logo" />
-          </Link>
+          </Nav.Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Engines">Engines</Nav.Link>
-            <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href="#top">Home</Nav.Link>
+
+            <Nav.Link href="#Contact">Contact</Nav.Link>
             
           </Nav>
         </Navbar.Collapse>
