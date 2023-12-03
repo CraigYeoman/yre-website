@@ -1,6 +1,5 @@
 import React from "react"
 import logo from "../images/yeomanRaceEnginesLogo.svg";
-import { Link } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 
 const Footer = () => {
@@ -19,9 +18,8 @@ const Footer = () => {
         </div>
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <Nav.Link className="nav-link px-2" href="/">Home</Nav.Link>
-            <Nav.Link className="nav-link px-2" href="/Contact">Contact</Nav.Link>
-            <li className="ms-3"><a className="text-muted" href="#"><svg className="bi" width="24" height="24"></svg></a></li>
+            <Nav.Link className="nav-link px-2" href="#top">Top of Page</Nav.Link>
+            <li className="ms-3"><a className="text-muted" href="/"><svg className="bi" width="24" height="24"></svg></a></li>
         </ul>
         </footer>
     </div>
