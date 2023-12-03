@@ -1,31 +1,32 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import "../style.css";
 import logo from "../images/yeomanRaceEnginesLogo.svg";
-import { TiThMenu } from "react-icons/ti";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 const Header = () => {
   const [color, setColor] = useState(false);
 
   const changeColor = () => {
     if (window.scrollY >= 90) {
-      setColor(true)
+      setColor(true);
     } else {
-      setColor(false)
+      setColor(false);
     }
-  } 
+  };
 
-  window.addEventListener('scroll', changeColor)
+  window.addEventListener("scroll", changeColor);
 
   return (
-    <Navbar expand="lg" fixed="top" className={color ? 'header header-bg': "header"}>
+    <Navbar
+      expand="lg"
+      fixed="top"
+      className={color ? "header header-bg" : "header"}
+    >
       <Container>
-        <Navbar.Brand> 
-          <Nav.Link href="#top" >
+        <Navbar.Brand>
+          <Nav.Link href="#top">
             <img src={logo} className="nav--icon" alt="logo" />
           </Nav.Link>
         </Navbar.Brand>
@@ -35,7 +36,6 @@ const Header = () => {
             <Nav.Link href="#top">Home</Nav.Link>
 
             <Nav.Link href="#Contact">Contact</Nav.Link>
-            
           </Nav>
         </Navbar.Collapse>
       </Container>

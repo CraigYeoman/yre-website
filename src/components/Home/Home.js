@@ -1,30 +1,28 @@
-import React from "react"
+import React from "react";
 
-import Champions from "../Champions"
-import Hero from './Hero'
-import About from './About'
-import Marketing from './Marketing'
-import Testimonial from './Testimonial'
-import Bio from './Bio'
-import Customers from './Customers'
-import Faq from './Faq'
-import Contact from './Contact'
-
+import Champions from "../Champions";
+import Hero from "./Hero";
+import About from "./About";
+import Marketing from "./Marketing";
+import Testimonial from "./Testimonial";
+import Bio from "./Bio";
+import Customers from "./Customers";
+import Faq from "./Faq";
+import Contact from "./Contact";
 
 const Home = () => {
+  return (
+    <div className="main--container">
+      <Hero />
+      <About />
+      <Marketing />
+      <Testimonial />
+      <Bio />
+      <Customers />
+      <Faq />
+      <Contact />
 
-    return (
-        <div className="main--container">       
-            <Hero />
-            <About />
-            <Marketing />
-            <Testimonial />
-            <Bio />
-            <Customers />
-            <Faq />
-            <Contact />
-
-    {/* <div className="content--row">
+      {/* <div className="content--row">
                 <div className="content--container">
                     <div className="info--container">
                         <h3>Custom Engines</h3>
@@ -44,8 +42,8 @@ const Home = () => {
                     </div>
                 </div>
             </div> */}
-  </div>
-    )
-}
+    </div>
+  );
+};
 
-export default Home
+export default Home;

@@ -1,9 +1,9 @@
-import car1 from "../../images/car1.jpg"
-import car2 from "../../images/car2.jpg"
-import car3 from "../../images/car3.jpg"
-import engine1 from "../../images/engine1.jpg"
-import engine2 from "../../images/engine2.jpg"
-import engine3 from "../../images/engine3.jpg"
+import car1 from "../../images/car1.jpg";
+import car2 from "../../images/car2.jpg";
+import car3 from "../../images/car3.jpg";
+import engine1 from "../../images/engine1.jpg";
+import engine2 from "../../images/engine2.jpg";
+import engine3 from "../../images/engine3.jpg";
 
 const Street = () => {
   return (
