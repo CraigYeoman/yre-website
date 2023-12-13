@@ -15,7 +15,7 @@ const Bio = () => {
             AHRA races to conquering IHRA Prostock circuits, our journey evolved
             into a family-driven force. With Jerry as a decorated driver and
             John Yeoman as the skilled crew chief, we forged our path to
-            success. What started as a humble machine shop for our racing motors
+            success. What started as a humble machine shop for our racing motors and
             expanded into a commitment to fellow racers. At our core, we are
             racers dedicated to racers, offering not only high-performance
             products but also a wealth of invaluable expertise honed over the
@@ -29,7 +29,7 @@ const Bio = () => {
             </Button>
           </div>
         </div>
-        <div className="col-10 col-sm-8 col-lg-6">
+        <div className="col-sm-8 col-lg-6">
           <img
             src={DragRace}
             className="d-block mx-lg-auto img-fluid"

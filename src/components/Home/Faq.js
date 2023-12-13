@@ -2,7 +2,9 @@ import Accordion from "react-bootstrap/Accordion";
 
 const Faq = () => {
   return (
-    <Accordion className="p-5 bg-light">
+    <div className="px-sm-4 bg-light">
+    <Accordion className="p-5">
+      <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">FAQ</h1>
       <Accordion.Item eventKey="0">
         <Accordion.Header>How do I purchase an engine?</Accordion.Header>
         <Accordion.Body>
@@ -28,6 +30,7 @@ const Faq = () => {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    </div>
   );
 };
 
